@@ -448,19 +448,19 @@ This section examines some common strategies that are employed to decentralize I
 
 ### Federation {#federation}
 
-Protocol designers often attempt to address centralization through federation: designing a function in a way that uses independent instances who maintain connectivity and interoperability to provide a single, cohesive service. Federation promises to allow users to choose the instance they associate with and accommodates substitution of one instance for another, lowering switching costs.
+Protocol designers often attempt to address centralization through federation, i.e., designing a function in a way that uses independent instances that maintain connectivity and interoperability to provide a single, cohesive service. Federation promises to allow users to choose the instance they associate with and accommodates substitution of one instance for another, lowering switching costs.
 
-However, federation alone is insufficient to prevent or mitigate centralization of a function, because non-technical factors can create pressure to use a central solution.
+However, federation alone is insufficient to prevent or mitigate centralization of a function because non-technical factors can create pressure to use a central solution.
 
-For example, the e-mail suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids a requirement for a single, central server in that role; users can (and often do) choose to delegate it to someone else, or can run their own MTA.
+For example, the email suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids a requirement for a single, central server in that role; users can (and often do) choose to delegate it to someone else or they can run their own MTA.
 
-Running one's own MTA has become considerably more onerous over the years, due in part to the increasingly complex mechanisms introduced to fight unwanted commercial e-mail.  These costs create an incentive to delegate one's MTA to a third party who has the appropriate expertise and resources, contributing to market concentration. {{DELIVERABILITY}}
+Running one's own MTA has become considerably more onerous over the years due, in part, to the increasingly complex mechanisms introduced to fight unwanted commercial emails.  These costs create an incentive to delegate one's MTA to a third party who has the appropriate expertise and resources, contributing to market concentration. {{DELIVERABILITY}}
 
-Additionally, the measures that MTAs use to identify unwanted commercial e-mail are often site-specific. Because large MTAs handle so many more addresses, there is a power imbalance with smaller ones; if a large MTA decides that e-mail from a small one is unwanted, there is significant impact on its ability to function, and little recourse.
+Additionally, the measures that MTAs use to identify unwanted commercial emails are often site specific. Because large MTAs handle so many more addresses, there is a power imbalance with smaller ones; if a large MTA decides that email from a small one is unwanted, there is significant impact on its ability to function and little recourse.
 
-XMPP {{?RFC6120}} is a chat protocol that demonstrates another issue with federation: the voluntary nature of technical standards.
+The Extensible Messaging and Presence Protocol (XMPP) {{?RFC6120}} is a chat protocol that demonstrates another issue with federation: the voluntary nature of technical standards.
 
-Like e-mail, XMPP is federated to facilitate rendezvous of users from different systems - if they allow it. While some XMPP deployments do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, deliberately denying them the benefits of global interoperability.
+Like email, XMPP is federated to facilitate the rendezvous of users from different systems - if they allow it. While some XMPP deployments do support truly federated messaging (i.e., a person using service A can interoperably chat with someone using service B), many of the largest do not. Because federation is voluntary, some operators captured their users into a single service, deliberately denying them the benefits of global interoperability.
 
 The examples above illustrate that, while federation can create the conditions necessary for a function to be decentralized, it does not guarantee that outcome.
 
