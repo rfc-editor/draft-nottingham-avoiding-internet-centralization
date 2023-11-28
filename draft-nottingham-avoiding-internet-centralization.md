@@ -444,7 +444,7 @@ Overall, decentralizing a function requires considerable work, is inherently pol
 
 ## Decentralization Strategies {#techniques}
 
-This section examines some common strategies that are employed to decentralize Internet functions, along with their limitations.
+This section examines some common strategies that are employed to decentralize Internet functions and discusses their limitations.
 
 ### Federation {#federation}
 
