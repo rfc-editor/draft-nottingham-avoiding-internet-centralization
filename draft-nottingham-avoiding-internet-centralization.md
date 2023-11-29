@@ -618,7 +618,7 @@ In particular, if the interfaces of a function are well-defined and stable, ther
 
 When centralization is purposefully allowed in an Internet function, protocol designers often attempt to mitigate the associated risks using technical measures such as federation (see {{federation}}) and operational governance structures (see {{multi}}).
 
-Protocols that successfully do so are often reused to avoid the considerable cost and risk of re-implementing those mitigations. For example, if a protocol requires a coordinated, global naming function, incorporating the Domain Name System is usually preferable to establishing a new system.
+Protocols that successfully do so are often reused to avoid the considerable cost and risk of reimplementing those mitigations. For example, if a protocol requires a coordinated global naming function, incorporating the Domain Name System is usually preferable to establishing a new system.
 
 
 # Future Work {#conclude}
