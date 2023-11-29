@@ -623,13 +623,13 @@ Protocols that successfully do so are often reused to avoid the considerable cos
 
 # Future Work {#conclude}
 
-This document has argued that while standards bodies have little means of effectively controlling or preventing centralization on the Internet through protocol design, there are still concrete and useful steps they can take to improve the Internet.
+This document has argued that, while standards bodies have little means of effectively controlling or preventing centralization of the Internet through protocol design, there are still concrete and useful steps they can take to improve the Internet.
 
-Those steps might be elaborated upon and extended in future work; doubtless there is more that can be done. New decentralization techniques might be identified and examined; what we learn from relationships with other, more effective regulators in this space can be documented.
+Those steps might be elaborated upon and extended in future work; however, it is doubtless there is more that can be done. New decentralization techniques might be identified and examined; what we learn from relationships with other, more effective regulators in this space can be documented.
 
-Some have suggested creating a how-to guide or checklist for dealing with centralization. Because centralization is so contextual and so varied in how it manifests, this might best be attempted within very limited areas; for example, for a particular type of function, or a function at a particular layer.
+Some have suggested creating a how-to guide or checklist for dealing with centralization. Because centralization is so contextual and so varied in how it manifests, this might best be attempted within very limited areas -- for example, for a particular type of function or a function at a particular layer.
 
-The nature of centralization also deserves further study; in particular, its causes. While there is much commentary on factors like network effects and switching costs, other aspects such as behavioural, cognitive, and social and economic factors have received comparatively little attention, although that is changing (e.g., {{BEHAVIOUR}}).
+The nature of centralization also deserves further study; in particular, its causes. While there is much commentary on factors like network effects and switching costs, other aspects -- such as behavioral, cognitive, social, and economic factors have received comparatively little attention, although that is changing (e.g., {{BEHAVIOUR}}).
 
 
 # Security Considerations
