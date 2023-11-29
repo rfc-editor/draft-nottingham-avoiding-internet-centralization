@@ -448,11 +448,11 @@ This section examines some common strategies that are employed to decentralize I
 
 ### Federation {#federation}
 
-Protocol designers often attempt to address centralization through federation, i.e., designing a function in a way that uses independent instances that maintain connectivity and interoperability to provide a single, cohesive service. Federation promises to allow users to choose the instance they associate with and accommodates substitution of one instance for another, lowering switching costs.
+Protocol designers often attempt to address centralization through federation, i.e., designing a function in a way that uses independent instances that maintain connectivity and interoperability to provide a single cohesive service. Federation promises to allow users to choose the instance they associate with and accommodates substitution of one instance for another, lowering switching costs.
 
 However, federation alone is insufficient to prevent or mitigate centralization of a function because non-technical factors can create pressure to use a central solution.
 
-For example, the email suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids a requirement for a single, central server in that role; users can (and often do) choose to delegate it to someone else or they can run their own MTA.
+For example, the email suite of protocols needs to route messages to a user even when that user changes network locations or becomes disconnected for a long period. To facilitate this, SMTP {{?RFC5321}} defines a specific role for routing users' messages, the Message Transfer Agent (MTA). By allowing anyone to deploy an MTA and defining rules for interconnecting them, the protocol avoids a requirement for a single central server in that role; users can (and often do) choose to delegate it to someone else or they can run their own MTA.
 
 Running one's own MTA has become considerably more onerous over the years due, in part, to the increasingly complex mechanisms introduced to fight unwanted commercial emails.  These costs create an incentive to delegate one's MTA to a third party who has the appropriate expertise and resources, contributing to market concentration. {{DELIVERABILITY}}
 
