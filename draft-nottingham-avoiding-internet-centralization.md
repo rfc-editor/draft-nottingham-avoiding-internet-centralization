@@ -567,27 +567,27 @@ One objection to protocols that enable easy switching is that they reduce the in
 
 ## Control Delegation of Power {#intermediation}
 
-The users of some functions might realize substantial benefits if they are provided by a third party in communication. Adding a new party to communication can improve:
+The users of some functions might realize substantial benefits if they are provided by a third party in communication. Adding a new party to communication can improve the following:
 
-* _Efficiency_: Many functions on the Internet are more efficient when performed at a higher scale. For example, a content delivery network can offer services at a fraction of the financial and environmental cost that someone serving content themselves would otherwise pay, because of the scale they operate at. Likewise, a two-sided market platform can introduce sizeable efficiencies over pair-wise buyer/seller trading {{CIRCULAR-CONUNDRUM}}.
+* _Efficiency_: Many functions on the Internet are more efficient when performed at a higher scale. For example, a content delivery network can offer services at a fraction of the financial and environmental cost that someone serving content themselves would otherwise pay because of the scale they operate at. Likewise, a two-sided market platform can introduce sizable efficiencies over pair-wise buyer/seller trading {{CIRCULAR-CONUNDRUM}}.
 
-* _Simplicity_: Completely disintermediating communication can shift the burden of functions onto endpoints. This can cause increased cognitive load for users; for example, compare commercial social networking platforms with self-hosted efforts.
+* _Simplicity_: Completely disintermediating communication can shift the burden of functions onto endpoints. This can cause increased cognitive load for users; for example, compare commercial social-networking platforms with self-hosted efforts.
 
 * _Specialization_: Having a function consolidated into a few hands can improve outcomes because of the resulting specialization. For example, services overseen by professional administrators are often seen to have a better security posture and improved availability.
 
-* _Privacy_: For some functions, user privacy can be improved by consolidating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Introduction of a third party can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., {{?RFC9230}}) that allow end users to hide their identity from services, while still accessing them.
+* _Privacy_: For some functions, user privacy can be improved by consolidating their activity to prevent individual behaviors from being discriminated from each other.{{MIX}} Introduction of a third party can also enforce functional boundaries -- for example, to reduce the need for users to trust potentially malicious endpoints, as seen in the so-called “oblivious” protocols (e.g., {{?RFC9230}}) that allow end users to hide their identity from services while still accessing them.
 
 However, if that new party is able to make their participation "sticky" -- for example, by leveraging their position in the network to require use of an intermediary, by exploiting their access to data, or because it is difficult to switch to another provider of the function -- there is a risk of centralization.
 
 Most often, third parties are added to functions as "intermediaries" or in designated "agent" roles. Designing such functions with thoughtful constraints on these roles can prevent at least the most egregious abuses of such power.
 
-When adding new parties to a function, two guidelines have proven useful: first, third parties should only be interposed into communication when at least one of the primary parties takes a positive action to do so. Second, third parties should have their ability to observe or control communication limited to what is necessary to perform their intended function.
+When adding new parties to a function, two guidelines have proven useful.  First, third parties should only be interposed into communication when at least one of the primary parties takes a positive action to do so. Second, third parties should have their ability to observe or control communication limited to what is necessary to perform their intended function.
 
-For example, early deployments of HTTP allowed intermediaries to be interposed by the network without knowledge of the endpoints, and those intermediaries could see and change the full content of traffic by default -- even when they are only intended to perform basic functions such as caching. Because of the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with efforts to encourage its adoption, those intermediaries are now required to be explicitly interposed by one endpoint, and they only have access to basic routing information.
+For example, early deployments of HTTP allowed intermediaries to be interposed by the network without knowledge of the endpoints, and those intermediaries could see and change the full content of traffic by default -- even when they were only intended to perform basic functions such as caching. Because of the introduction of HTTPS and the CONNECT method (see {{Section 9.3.6 of HTTP}}), combined with efforts to encourage its adoption, those intermediaries are now required to be explicitly interposed by one endpoint, and they only have access to basic routing information.
 
 See {{?I-D.thomson-tmi}} for more guidance on protocol intermediation.
 
-The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction Web site intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the centralization associated with this kind of intermediation by standardising the function, rather than restricting the capabilities of the underlying protocols; see {{up}}.
+The term "intermediary" is also used (often in legal and regulatory contexts) more broadly than it has been in protocol design; for example, an auction website that intermediates between buyers and sellers is considered an intermediary, even though it is not formally an intermediary in HTTP (see {{Section 3.7 of HTTP}}). Protocol designers can address the centralization associated with this kind of intermediation by standardizing the function rather than restricting the capabilities of the underlying protocols; see {{up}}.
 
 
 ## Enforce Boundaries {#network}
