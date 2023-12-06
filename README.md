@@ -28,7 +28,7 @@ If the RFC Editor creates the PR, the editor expects feedback from at least one 
 The RFC Editor will close the issue when it has been addressed either by accepting a pull request or simply by closing the issue if no changes are needed.  
 
 ## Pull Requests
-We have created a [PR] (https://github.com/rfc-editor/draft-nottingham-avoiding-internet-centralization/pull/1) to encapsulate the necessary changes to take the document from I-D to RFC-to-be. All other edits and suggested changes can be reviewed as PRs and Issues.
+We have merged a [PR] (https://github.com/rfc-editor/draft-nottingham-avoiding-internet-centralization/pull/1) to encapsulate the necessary changes to take the document from I-D to RFC-to-be. All other edits and suggested changes can be reviewed as PRs and Issues.
 
 If you would like to submit changes beyond those raised by the RPC, please create a pull request and identify one or more issues that the pull request closes in the comments. 
 
