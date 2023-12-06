@@ -1,13 +1,11 @@
 ---
 title: "Centralization, Decentralization, and Internet Standards"
 abbrev: Internet Centralization and Standards
-docname: draft-nottingham-avoiding-internet-centralization-latest
+docname: draft-nottingham-avoiding-internet-centralization-14
 date: {DATE}
 category: info
 
 ipr: trust200902
-area: General
-workgroup:
 stream: independent
 keyword: centralization
 keyword: decentralization
@@ -16,11 +14,9 @@ keyword: regulation
 keyword: governance
 
 stand_alone: yes
-smart_quotes: no
+smart_quotes: false
 pi: [toc, tocindent, sortrefs, symrefs, strict, compact, comments, inline]
-
-venue:
-  github: mnot/avoiding-internet-centralization
+number: 9518
 
 author:
  -
