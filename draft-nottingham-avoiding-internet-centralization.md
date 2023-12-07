@@ -633,6 +633,10 @@ The nature of centralization also deserves further study; in particular, its cau
 This document does not have a direct security impact on Internet protocols. That said, failure to consider centralization might cause a myriad of security issues; see {{why}} for a preliminary discussion.
 
 
+# IANA Considerations
+
+This document has no IANA actions.
+
 --- back
 
 
