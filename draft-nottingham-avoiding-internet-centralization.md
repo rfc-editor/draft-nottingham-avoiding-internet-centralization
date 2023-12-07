@@ -500,17 +500,17 @@ The subsections below suggest a few concrete, meaningful steps that standards bo
 
 ## Bolster Legitimacy {#legitimate}
 
-Where technical standards have only limited ability to control centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise, and are actively being considered and implemented in various jurisdictions. However, regulating the Internet is risky without a firm grounding in the effects on the architecture, informed by a technical viewpoint.
+Where technical standards have only limited ability to control centralization of the Internet, legal standards (whether regulation, legislation, or case law) show more promise and are actively being considered and implemented in various jurisdictions. However, regulating the Internet is risky without a firm grounding in the effects on the architecture informed by a technical viewpoint.
 
 That viewpoint can and should be provided by the Internet standards community. To effectively do so, its institutions must be seen as legitimate by the relevant parties -- for example, competition regulators. If the IETF is perceived as representing or being controlled by "big tech" concerns or only US-based companies, its ability to guide decisions that affect the Internet will be diminished considerably.
 
-The IETF already has features that arguably provide considerable legitimacy; for example, open participation and representation by individuals rather than companies both enhance input legitimacy; a well-defined process with multiple layers of appeals and transparency contributes to throughput legitimacy, and a long history of successful Internet standards provides perhaps the strongest source of legitimacy for the IETF -- its output.
+The IETF already has features that arguably provide considerable legitimacy.  Examples of these features include open participation and representation by individuals rather than by companies, both of which enhance input legitimacy); a well-defined process with multiple layers of appeals and transparency, which contributes to throughput legitimacy; and a long history of successful Internet standards, which provides perhaps the strongest source of legitimacy for the IETF -- its output.
 
-However, it is also widely recognized the considerable costs (not just financial) involved in successfully participating in the IETF have a tendency to favour larger companies over smaller concerns. Additionally, the specialised and highly technical nature of the work creates barriers to entry for non-technical stakeholders. These factors have the potential to reduce the legitimacy of the IETF's decisions, at least in some eyes.
+However, it is also widely recognized that the considerable costs (not just financial) involved in successfully participating in the IETF have a tendency to favor larger companies over smaller concerns. Additionally, the specialized and highly technical nature of the work creates barriers to entry for non-technical stakeholders. These factors have the potential to reduce the legitimacy of the IETF's decisions, at least in some eyes.
 
-Efforts to address these shortcomings are ongoing; see, for example, {{?RFC8890}}. Overall, bolstering the legitimacy of the organization should be seen as a continuous effort.
+Efforts to address these shortcomings are ongoing; for example, see {{?RFC8890}}. Overall, bolstering the legitimacy of the organization should be seen as a continuous effort.
 
-When engaging in external efforts, the IETF community (especially, its leadership) should keep firmly in mind that its voice is most authoritative when focused on technical and architectural impact.
+When engaging in external efforts, the IETF community (especially its leadership) should keep firmly in mind that its voice is most authoritative when focused on technical and architectural impact.
 
 
 ## Focus Discussion of Centralization {#target}
