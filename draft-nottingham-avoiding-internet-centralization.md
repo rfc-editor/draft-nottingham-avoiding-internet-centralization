@@ -537,13 +537,13 @@ When evaluating claims that a given proposal is centralized, the context of thos
 
 ## Target Proprietary Functions {#up}
 
-Functions that are widely used but lacking in interoperability are ripe for standardisation efforts. Targeting prominent and proprietary functions (e.g., chat) is appropriate, but so are smaller efforts to improve interoperability and portability of specific features that are often used to lock users into a platform; for example, a format for lists of contacts in a social network.
+Functions that are widely used but lacking in interoperability are ripe for standardization efforts. Targeting prominent and proprietary functions (e.g., chat) is appropriate, but so are smaller efforts to improve interoperability and portability of specific features that are often used to lock users into a platform, for example, a format for lists of contacts in a social network.
 
-A common objection to this approach is that adoption is voluntary; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) were available for some time without being used in a federated manner by commercial social networking providers.
+A common objection to this approach is that adoption is voluntary; there are no "standards police" to mandate their use or enforce correct implementation. For example, specifications like {{ACTIVITYSTREAMS}}) were available for some time without being used in a federated manner by commercial social-networking providers.
 
-That objection ignores that while standards aren't mandatory, legal regulation is. Legal mandates for interoperability are increasingly proposed by policymakers as a remedy for competition issues (see, e.g., {{DMA}}). This appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
+That objection ignores the fact that while standards aren't mandatory, legal regulation is. Legal mandates for interoperability are increasingly proposed by policymakers as a remedy for competition issues (e.g., see {{DMA}}). This appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
-That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls, and will require improved and new capabilities (especially liaison), and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources for interoperability specifications.
+That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls and will require new and improved capabilities (especially liaison) and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources for interoperability specifications.
 
 
 ## Enable Switching {#switch}
