@@ -380,7 +380,7 @@ Reluctance to countenance centralization is also rooted in the many potentially 
 
 * _Self-Reinforcement_: As widely noted (e.g., see {{ACCESS}}), a centralized provider's access to data allows it the opportunity to make improvements to its offerings while denying such access to others.
 
-The relationship between these damaging effects and centralization is often complex. It is not always the case that centralization will lead to them; when it does, there is not always a direct and simple trade-off.
+The relationship between these harms and centralization is often complex. It is not always the case that centralization will lead to them; when it does, there is not always a direct and simple trade-off.
 
 For example, consider the relationship between centralization and availability. A centrally operated system might be more available because of the resources available to a larger operator, but their size creates greater impact when a fault is encountered. Decentralized systems can be more resilient in the face of some forms of failure but less so in other ways; for example, they may be less able to react to systemic issues and might be exposed to a larger collection of security vulnerabilities in total. As such, it cannot be said that centralization reduces availability in all cases: nor does it improve it in all cases.
 
