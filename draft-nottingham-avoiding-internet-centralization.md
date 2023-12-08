@@ -525,7 +525,7 @@ However, standards participants rarely have the expertise or information availab
 
 Therefore, approaches like requiring a "Centralization Considerations" section in documents, gatekeeping publication on a centralization review, or committing significant resources to searching for centralization in protocols are unlikely to improve the Internet.
 
-Similarly, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to prevent centralized applications from using them. While the imprimatur of an Internet standard is not without value, merely withholding it cannot prevent centralization.
+Similarly, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to prevent centralized applications from using them. While the imprimatur of the standards track {{?RFC2026}} is not without value, merely withholding it cannot prevent centralization.
 
 Thus, discussions should be very focused and limited, and any proposals for decentralization should be detailed so their full effects can be evaluated. {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
