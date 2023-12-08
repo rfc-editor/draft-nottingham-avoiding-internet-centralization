@@ -345,17 +345,17 @@ Although this document has been discussed widely in the IETF community (see {{ac
 
 In this document, "centralization" is the state of affairs where a single entity or a small group of them can observe, capture, control, or extract rent from the operation or use of an Internet function exclusively.
 
-Here, "entity" could be a person, group, or corporation. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organisation is still a centralizing entity.
+Here, "entity" could be a person, group, or corporation. An organization might be subject to governance that mitigates centralization risk (see {{multi}}), but that organization is still a centralizing entity.
 
-"Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol, or an extension to an existing one.
+"Internet function" is used broadly in this document. Most directly, it might be an enabling protocol already defined by standards, such as IP {{?RFC791}}, BGP {{?RFC4271}}, TCP {{?RFC793}}, or HTTP {{HTTP}}. It might also be a proposal for a new enabling protocol or an extension to an existing one.
 
 Because people's experience of the Internet are not limited to standards-defined protocols and applications, this document also considers centralization in functions built on top of standards -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies for the Internet can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
-This definition does not capture all types of centralization. Notably, technical centralization (where, for example, a machine or network link is a single point of failure) is relatively well-understood by engineers, and can be mitigated, typically by distributing a function across multiple components. As we will see, such techniques might address that type of centralization while failing to prevent control of the function falling into few hands. A failure because of a cut cable, power outage, or failed server is well-understood by the technical community, but qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
+This definition does not capture all types of centralization. Notably, technical centralization (for example, where a machine or network link is a single point of failure) is relatively well understood by engineers; it can be mitigated, typically by distributing a function across multiple components. As we will see, such techniques might address that type of centralization while failing to prevent control of the function falling into few hands. A failure because of a cut cable, power outage, or failed server is well understood by the technical community but is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
 
-Likewise, political centralization (where, for example, a country is able to control how a function is supplied across the whole Internet) is equally concerning, but not considered in depth here.
+Likewise, political centralization (for example, where a country is able to control how a function is supplied across the whole Internet) is equally concerning but is not considered in depth here.
 
-Even when centralization is not currently present in a function, some conditions make it more likely that centralization will emerge in the future. This document uses "centralization risk" to characterise that possibility.
+Even when centralization is not currently present in a function, some conditions make it more likely that centralization will emerge in the future. This document uses "centralization risk" to characterize that possibility.
 
 
 ## Centralization Can Be Harmful {#why}
