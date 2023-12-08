@@ -519,7 +519,7 @@ When engaging in external efforts, the IETF community (especially, its leadershi
 
 ## Focus Discussion of Centralization {#target}
 
-Centralization and decentralization are increasingly being raised in technical standards discussions. Any claim needs to be critically evaluated.  As discussed in {{centralization}}, not all centralization is automatically harmful, and, per {{decentralization}}, decentralization techniques do not automatically address all damaging effects of centralization: these techniques may bring their own risks.
+Centralization and decentralization are increasingly being raised in technical standards discussions. Any claim needs to be critically evaluated.  As discussed in {{centralization}}, not all centralization is automatically harmful, and, per {{decentralization}}, decentralization techniques do not automatically address all centralization harms: these techniques may bring their own risks.
 
 However, standards participants rarely have the expertise or information available to completely evaluate those claims, because the analysis involves not only technical factors, but also economic, social, commercial, and legal aspects. For example, economies of scale can cause concentration due to the associated efficiencies {{SCALE}}, and so determining whether that concentration is appropriate requires a detailed economic analysis that is not in scope for a technical standards body. Furthermore, claims of centralization may have other motivations; in particular, they can be proxies for power struggles between actors with competing interests, and a claim of centralization might be used to deny market participants and (perhaps more importantly) users the benefits of standardization.
 
