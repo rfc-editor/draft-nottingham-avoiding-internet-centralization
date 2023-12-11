@@ -523,7 +523,7 @@ Therefore, approaches like requiring a "Centralization Considerations" section i
 
 Similarly, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to prevent centralized applications from using them. While the imprimatur of the standards track {{?RFC2026}} is not without value, merely withholding it cannot prevent centralization.
 
-Thus, discussions should be very focused and limited, and any proposals for decentralization should be detailed so their full effects can be evaluated. {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
+Thus, discussions should be very focused and limited, and any proposals for decentralization should be detailed so their full effects can be evaluated. {{SCHNEIDER}} implores those who propose decentralization to be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes borrowing remedies from more traditional governance systems, such as separation of powers and accountability.
 
 When evaluating claims that a given proposal is centralized, the context of those statements should be examined for presuppositions, assumptions, and omissions. {{BACCHI}} offers one framework for critical interrogations, which can be adapted for centralization-related discussions:
 
