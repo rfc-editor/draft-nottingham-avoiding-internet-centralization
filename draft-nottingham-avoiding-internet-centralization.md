@@ -368,7 +368,7 @@ Reluctance to countenance centralization is also rooted in the many potentially 
 
 * _Limits on Innovation_: A party with the ability to control communication can preclude the possibility of "permissionless innovation", i.e., the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
-* _Constraints on Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers, especially when those users can build their own applications and services based upon interoperable standards. When a centralized service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which facilitates abuse of power.
+* _Constraints on Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers, especially when those users can build their own applications and services based upon interoperable standards. When a centralized service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which opens the door to abuse of power.
 
 * _Reduced Availability_: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While service availability can benefit from the focused attention of a large centralized provider, that provider's failure can have a disproportionate impact on availability.
 
