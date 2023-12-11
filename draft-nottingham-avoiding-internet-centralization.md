@@ -465,7 +465,7 @@ The examples above illustrate that, while federation can create the conditions n
 
 Increasingly, distributed consensus technologies (such as a blockchain) are touted as a solution to centralization. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
 
-These techniques attempt to avoid centralization by distributing the operation of a function to members of a sometimes large pool of protocol participants. Usually, the participants are unknown and untrusted, and a particular task's assignment to a node for handling cannot be predicted or controlled. They typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger).
+These techniques typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger). They attempt to avoid centralization by distributing the operation of a function to members of a sometimes large pool of protocol participants. Usually, the participants are unknown and untrusted, and a particular task's assignment to a node for handling cannot be predicted or controlled.
 
 Sybil attacks (where a party or coordinated parties cheaply create enough protocol participants to affect how consensus is judged) are a major concern for these protocols because they would have the effect of concentrating power into the hands of the attacker. Therefore, they encourage diversity in the pool of participants using indirect techniques, such as proof-of-work (where each participant has to show a significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
