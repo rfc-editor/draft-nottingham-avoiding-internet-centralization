@@ -588,7 +588,7 @@ The term "intermediary" is also used (often in legal and regulatory contexts) mo
 
 ## Enforce Boundaries {#network}
 
-Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
+Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can become centralization risks for the functions and applications built "on top" of them.
 
 For example, application protocols require a network to function; therefore, a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, creating a disincentive (or even removing the ability) to use a specific provider of a function. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
 
