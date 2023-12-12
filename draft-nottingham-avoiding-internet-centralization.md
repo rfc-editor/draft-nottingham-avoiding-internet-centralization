@@ -601,7 +601,7 @@ The Internet's ability to evolve is critical, allowing it to meet new requiremen
 
 However, these interfaces can also be leveraged by a powerful entity if they can change the target for meaningful interoperability by adding proprietary extensions to a standard. This is especially true when the core standard does not itself provide sufficient utility on its own.
 
-For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favoring those who had more market power.
+For example, the extreme flexibility of SOAP {{SOAP}} and its failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favoring those who had more market power.
 
 Therefore, standards efforts should focus on providing concrete utility to the majority of their users as published, rather than being a “framework” where interoperability is not immediately available. Internet functions should not make every aspect of their operation extensible; boundaries between modules should be designed in a way that allows evolution, while still offering meaningful functionality.
 
