@@ -543,7 +543,7 @@ A common objection to this approach is that adoption is voluntary; there are no 
 
 That objection ignores the fact that while standards aren't mandatory, legal regulation is. Legal mandates for interoperability are increasingly proposed by policymakers as a remedy for competition issues (e.g., see {{DMA}}). This appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
-That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls and will require new and improved capabilities (especially liaison) and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources for interoperability specifications.
+That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls and will require new and improved capabilities (especially liaison) and considerable effort. If the technical community does not make that effort, it is likely that regulators will turn to other sources for interoperability specifications.
 
 
 ## Enable Switching {#switch}
@@ -607,7 +607,7 @@ Therefore, standards efforts should focus on providing concrete utility to the m
 
 Beyond allowing evolution, well-considered interfaces can also aid decentralization efforts. The structural boundaries that emerge between the sub-modules of the function -- as well as those with adjacent functions -- provide touchpoints for interoperability and an opportunity for substitution of providers.
 
-In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the Internet community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
+In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the technical community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
 
 
 ## Reuse What Works {#reuse}
