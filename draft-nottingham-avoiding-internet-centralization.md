@@ -1,6 +1,6 @@
 ---
 title: "Centralization, Decentralization, and Internet Standards"
-abbrev: Internet Centralization and Standards
+abbrev: Internet Standards & Centralization
 docname: draft-nottingham-avoiding-internet-centralization-14
 date: {DATE}
 category: info
@@ -351,7 +351,7 @@ Here, "entity" could be a person, group, or corporation. An organization might b
 
 Because people's experience of the Internet are not limited to standards-defined protocols and applications, this document also considers centralization in functions built on top of standards -- for example, social networking, file sharing, financial services, and news dissemination. Likewise, the networking equipment, hardware, operating systems, and software that act as enabling technologies for the Internet can also impact centralization. The supply of Internet connectivity to end users in a particular area or situation can exhibit centralization, as can the supply of transit between networks (so called "Tier 1" networks).
 
-This definition does not capture all types of centralization. Notably, technical centralization (for example, where a machine or network link is a single point of failure) is relatively well understood by engineers; it can be mitigated, typically by distributing a function across multiple components. As we will see, such techniques might address that type of centralization while failing to prevent control of the function falling into few hands. A failure because of a cut cable, power outage, or failed server is well understood by the technical community but is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
+This definition of centralization does not capture all types of centralization. Notably, technical centralization (for example, where a machine or network link is a single point of failure) is relatively well understood by engineers; it can be mitigated, typically by distributing a function across multiple components. As we will see, such techniques might address that type of centralization while failing to prevent control of the function falling into few hands. A failure because of a cut cable, power outage, or failed server is well understood by the technical community but is qualitatively different from the issues encountered when a core Internet function has a gatekeeper.
 
 Likewise, political centralization (for example, where a country is able to control how a function is supplied across the whole Internet) is equally concerning but is not considered in depth here.
 
@@ -364,11 +364,11 @@ Many engineers who participate in Internet standards efforts have an inclination
 
 Reluctance to countenance centralization is also rooted in the many potentially damaging effects that have been associated with it, including:
 
-* _Power Imbalance_: When a third party has unavoidable access to communications, they gain informational and positional advantages that allow observation of behavior (the "panopticon effect") and shaping or even denial of behavior (the "chokepoint effect"): capabilities that those parties (or the states that have authority over them) can use for coercive ends {{INTERDEPENDENCE}} or even to disrupt society itself. Just as good governance of states requires separation of powers {{FEDERALIST-51}}, good governance of the Internet requires that power not be consolidated in one place without appropriate checks and balances.
+* _Power Imbalance_: When a third party has unavoidable access to communications, they gain informational and positional advantages that allow observation of behavior (the "panopticon effect") and shaping or even denial of behavior (the "chokepoint effect"): capabilities that those parties (or the states that have authority over them) can use for coercive ends {{INTERDEPENDENCE}} or even to disrupt society itself. Just as {{FEDERALIST-51}} describes good governance of the US states, good governance of the Internet requires that power over any function not be consolidated in one place without appropriate checks and balances.
 
 * _Limits on Innovation_: A party with the ability to control communication can preclude the possibility of "permissionless innovation", i.e., the ability to deploy new, unforeseen applications without requiring coordination with parties other than those you are communicating with.
 
-* _Constraints on Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers, especially when those users can build their own applications and services based upon interoperable standards. When a centralized service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which facilitates abuse of power.
+* _Constraints on Competition_: The Internet and its users benefit from robust competition when applications and services are available from many providers, especially when those users can build their own applications and services based upon interoperable standards. When a centralized service or platform must be used because no substitutes are suitable, it effectively becomes an essential facility, which opens the door to abuse of power.
 
 * _Reduced Availability_: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While service availability can benefit from the focused attention of a large centralized provider, that provider's failure can have a disproportionate impact on availability.
 
@@ -465,7 +465,7 @@ The examples above illustrate that, while federation can create the conditions n
 
 Increasingly, distributed consensus technologies (such as a blockchain) are touted as a solution to centralization. A complete survey of this rapidly changing area is beyond the scope of this document, but we can generalize about its properties.
 
-These techniques attempt to avoid centralization by distributing the operation of a function to members of a sometimes large pool of protocol participants. Usually, the participants are unknown and untrusted, and a particular task's assignment to a node for handling cannot be predicted or controlled. They typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger).
+These techniques typically guarantee proper performance of a function using cryptographic techniques (often, an append-only transaction ledger). They attempt to avoid centralization by distributing the operation of a function to members of a sometimes large pool of protocol participants. Usually, the participants are unknown and untrusted, and a particular task's assignment to a node for handling cannot be predicted or controlled.
 
 Sybil attacks (where a party or coordinated parties cheaply create enough protocol participants to affect how consensus is judged) are a major concern for these protocols because they would have the effect of concentrating power into the hands of the attacker. Therefore, they encourage diversity in the pool of participants using indirect techniques, such as proof-of-work (where each participant has to show a significant consumption of resources) or proof-of-stake (where each participant has some other incentive to execute correctly).
 
@@ -523,7 +523,7 @@ Therefore, approaches like requiring a "Centralization Considerations" section i
 
 Similarly, refusing to standardize a protocol because it does not actively prevent all forms of centralization ignores the very limited power that standards efforts have to do so. Almost all existing Internet protocols -- including IP, TCP, HTTP, and DNS -- fail to prevent centralized applications from using them. While the imprimatur of the standards track {{?RFC2026}} is not without value, merely withholding it cannot prevent centralization.
 
-Thus, discussions should be very focused and limited, and any proposals for decentralization should be detailed so their full effects can be evaluated. {{SCHNEIDER}} implores that proposals to decentralize be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes considered use of tools like separation of powers and accountability from "old, institutional liberal political theory".
+Thus, discussions should be very focused and limited, and any proposals for decentralization should be detailed so their full effects can be evaluated. {{SCHNEIDER}} implores those who propose decentralization to be "really, really clear about what particular features of a system a given design seeks to decentralize" and promotes considered use of tools like separation of powers and accountability from "old, institutional liberal political theory".
 
 When evaluating claims that a given proposal is centralized, the context of those statements should be examined for presuppositions, assumptions, and omissions. {{BACCHI}} offers one framework for critical interrogations, which can be adapted for centralization-related discussions:
 
@@ -543,7 +543,7 @@ A common objection to this approach is that adoption is voluntary; there are no 
 
 That objection ignores the fact that while standards aren't mandatory, legal regulation is. Legal mandates for interoperability are increasingly proposed by policymakers as a remedy for competition issues (e.g., see {{DMA}}). This appetite for regulation presents an opportunity for new specifications to decentralize these functions, backed by a legal mandate in combination with changing norms and the resulting market forces {{NEW-CHICAGO}}.
 
-That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls and will require new and improved capabilities (especially liaison) and considerable effort. If the Internet community does not make that effort, it is likely that regulators will turn to other sources for interoperability specifications.
+That opportunity also presents a risk, if the resulting legal regulation is at odds with the Internet architecture. Successfully creating standards that work in concert with legal regulation presents many potential pitfalls and will require new and improved capabilities (especially liaison) and considerable effort. If the technical community does not make that effort, it is likely that regulators will turn to other sources for interoperability specifications.
 
 
 ## Enable Switching {#switch}
@@ -588,7 +588,7 @@ The term "intermediary" is also used (often in legal and regulatory contexts) mo
 
 ## Enforce Boundaries {#network}
 
-Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can surface centralization into functions and applications built "on top" of them.
+Most Internet protocols and applications depend on other, "lower-layer" functions and their implementations. The features, deployment, and operation of these dependencies can become centralization risks for the functions and applications built "on top" of them.
 
 For example, application protocols require a network to function; therefore, a degree of power over communication is available to the network provider. They might block access to, slow down, or change the content of a specific service for financial, political, operational, or criminal reasons, creating a disincentive (or even removing the ability) to use a specific provider of a function. By selectively hindering the use of some services but not others, network interventions can be composed to create pressure to use those other services -- intentionally or not.
 
@@ -601,13 +601,13 @@ The Internet's ability to evolve is critical, allowing it to meet new requiremen
 
 However, these interfaces can also be leveraged by a powerful entity if they can change the target for meaningful interoperability by adding proprietary extensions to a standard. This is especially true when the core standard does not itself provide sufficient utility on its own.
 
-For example, the SOAP protocol's {{SOAP}} extreme flexibility and failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favoring those who had more market power.
+For example, the extreme flexibility of SOAP {{SOAP}} and its failure to provide significant standalone value allowed vendors to require use of their preferred extensions, favoring those who had more market power.
 
 Therefore, standards efforts should focus on providing concrete utility to the majority of their users as published, rather than being a “framework” where interoperability is not immediately available. Internet functions should not make every aspect of their operation extensible; boundaries between modules should be designed in a way that allows evolution, while still offering meaningful functionality.
 
 Beyond allowing evolution, well-considered interfaces can also aid decentralization efforts. The structural boundaries that emerge between the sub-modules of the function -- as well as those with adjacent functions -- provide touchpoints for interoperability and an opportunity for substitution of providers.
 
-In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the Internet community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
+In particular, if the interfaces of a function are well-defined and stable, there is an opportunity to use different providers for that function. When those interfaces are open standards, change control resides with the technical community instead of remaining in proprietary hands, further enhancing stability and enabling (but not ensuring) decentralization.
 
 
 ## Reuse What Works {#reuse}
