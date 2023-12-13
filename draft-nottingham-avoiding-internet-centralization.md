@@ -482,9 +482,9 @@ Federation and distributed consensus can both create the conditions for the prov
 
 In these circumstances, some form of governance over that choke point is necessary to assure the desired outcome. Often, this is through the establishment of a multi-stakeholder body, which is an institution that includes representatives of the different kinds of parties that are affected by the system's operation ("stakeholders") in an attempt to make well-reasoned, legitimate, and authoritative decisions.
 
-The most widely studied example of this technique is the governance of the DNS name space, which exhibits centralization as a “single source of truth”. That source of truth is overseen by [the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.icann.org/resources/pages/governance/governance-en), a global multi-stakeholder body with representation from end users, governments, operators, and others.
+The most widely studied example of this technique is the governance of the DNS name space, which exhibits centralization as a “single source of truth”. That source of truth is overseen by [the Internet Corporation for Assigned Names and Numbers (ICANN)]<https://www.icann.org/resources/pages/governance/governance-en>, a global multi-stakeholder body with representation from end users, governments, operators, and others.
 
-Another example is the governance of the Web's trust model, implemented by web browsers as relying parties that have strong incentives to protect user privacy and security and CAs as trust anchors that have a strong incentive to be included in browser trust stores. To promote the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum](https://cabforum.org) was established as an oversight body that involves both parties as stakeholders.
+Another example is the governance of the Web's trust model, implemented by web browsers as relying parties that have strong incentives to protect user privacy and security and CAs as trust anchors that have a strong incentive to be included in browser trust stores. To promote the operational and security requirements necessary to provide the desired properties, the [CA/Browser Forum]<https://cabforum.org> was established as an oversight body that involves both parties as stakeholders.
 
 These examples are notable in that the governance mechanism is not specified in the protocol documents directly; rather, they are layered on operationally, but in a manner that takes advantage of protocol features that enable the imposition of governance.
 
@@ -646,6 +646,6 @@ This document was born out of early discussions with Brian Trammell during our s
 
 Special thanks to Geoff Huston and Milton Mueller for their well-considered, thoughtful, and helpful reviews.
 
-Thanks to Jari Arkko, Kristin Berdan, Richard Clayton, Cory Doctorow, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions. Likewise, the arch-discuss@ietf.org mailing list and Decentralized Internet Infrastructure Research Group provided valuable discussion and feedback.
+Thanks to Jari Arkko, Kristin Berdan, Richard Clayton, Cory Doctorow, Christian Huitema, Mallory Knodel, Eliot Lear, John Levine, Tommy Pauly, and Martin Thomson for their comments and suggestions. Likewise, the <arch-discuss@ietf.org> mailing list and Decentralized Internet Infrastructure Research Group provided valuable discussion and feedback.
 
 No large language models were used in the production of this document.
