@@ -372,7 +372,7 @@ Reluctance to countenance centralization is also rooted in the many potentially 
 
 * _Reduced Availability_: Availability of the Internet (and applications and services built upon it) improves when there are many ways to obtain access. While service availability can benefit from the focused attention of a large centralized provider, that provider's failure can have a disproportionate impact on availability.
 
-* _Monoculture_: The scale available to a centralized provider can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in functions’ implementations leads to a more robust outcome when viewed systemically because "progress is the outcome of a trial-and-error evolutionary process of many agents interacting freely." {{POLYCENTRIC}}
+* _Monoculture_: The scale available to a centralized provider can magnify minor flaws in features to a degree that can have broad consequences. For example, a single codebase for routers elevates the impact of a bug or vulnerability; a single recommendation algorithm for content can have severe social impact. Diversity in functions’ implementations leads to a more robust outcome when viewed systemically because "progress is the outcome of a trial-and-error evolutionary process of many agents interacting freely" {{POLYCENTRIC}}.
 
 * _Self-Reinforcement_: As widely noted (e.g., see {{ACCESS}}), a centralized provider's access to data allows it the opportunity to make improvements to its offerings while denying such access to others.
 
@@ -406,7 +406,7 @@ For example, it has long been recognized that the efficiencies that come with ec
 
 Complex and risky functions like financial services (e.g., credit card processing) are often concentrated into a few specialized organizations where they can receive the focused attention and expertise that they require.
 
-Centralization can also provide an opportunity for beneficial controls to be imposed. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures."
+Centralization can also provide an opportunity for beneficial controls to be imposed. {{AMBITION}} notes that "centralized structures can have virtues, such as enabling publics to focus their limited attention for oversight, or forming a power bloc capable of challenging less-accountable blocs that might emerge. Centralized structures that have earned widespread respect in recent centuries – including governments, corporations, and nonprofit organizations – have done so in no small part because of the intentional design that went into those structures".
 
 This can be seen when a function requires governance to realize common goals and protect minority interests. For example, content moderation functions impose community values that many see as a benefit. Of course, they can also be viewed as a choke point where inappropriate controls are able to be imposed if that governance mechanism has inadequate oversight, transparency, or accountability.
 
@@ -415,11 +415,11 @@ Ultimately, deciding when centralization is beneficial is a judgment call. Some 
 
 # Decentralization {#decentralization}
 
-While the term "decentralization" has a long history of use in economics, politics, religion, and international development, {{RAND}} gave one of the first definitions relevant to computer networking as a condition when "complete reliance upon a single point is not always required."
+While the term "decentralization" has a long history of use in economics, politics, religion, and international development, {{RAND}} gave one of the first definitions relevant to computer networking as a condition when "complete reliance upon a single point is not always required".
 
 Such technical centralization (while not a trivial topic) is relatively well understood. Avoiding all forms of centralization -- including non-technical ones -- using only technical tools (like protocol design) is considerably more difficult. Several issues are encountered.
 
-First, and most critically, technical decentralization measures have, at best, limited effects on non-technical forms of centralization. Or, per {{SCHNEIDER}}, "decentralized technology alone does not guarantee decentralized outcomes." As explored below in {{techniques}}, technical measures are better characterized as necessary but insufficient to achieve full decentralization of a function.
+First, and most critically, technical decentralization measures have, at best, limited effects on non-technical forms of centralization. Or, per {{SCHNEIDER}}, "decentralized technology alone does not guarantee decentralized outcomes". As explored below in {{techniques}}, technical measures are better characterized as necessary but insufficient to achieve full decentralization of a function.
 
 Second, decentralizing a function requires overcoming challenges that centralized ones do not face. A decentralized function can be more difficult to adapt to user needs (for example, introducing new features or experimenting with user interfaces) because doing so often requires coordination between many different actors. {{MOXIE}} Economies of scale are more available to centralized functions, as is data that can be used to refine a function's design. All of these factors make centralized solutions more attractive to service providers and, in some cases, can make a decentralized solution uneconomic.
 
@@ -431,11 +431,11 @@ Fourth, different parties might have good-faith differences on what "sufficientl
 
 These tensions can be seen, for example, in the DNS. While some aspects of the system are decentralized -- for example, the distribution of the lookup function to local servers that users have the option to override -- an essentially centralized aspect of the DNS is its operation as a name space: a single global "source of truth" with inherent (if beneficial) centralization in its management. ICANN mitigates the associated risk through multi-stakeholder governance (see {{multi}}). While many believe that this arrangement is sufficient and might even have desirable qualities (such as the ability to impose community standards over the operation of the name space), others reject ICANN's oversight of the DNS as illegitimate, favoring decentralization based upon distributed consensus protocols rather than human governance. {{MUSIANI}}
 
-Fifth, decentralization unavoidably involves adjustments to the power relationships between protocol participants, especially when it opens up the possibility of centralization elsewhere. As {{AMBITION}} notes, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others", so "we cannot accept technology as a substitute for taking social, cultural, and political considerations seriously." Or, more bluntly, "without governance mechanisms in place, nodes may collude, people may lie to each other, markets can be rigged, and there can be significant cost to people entering and exiting markets." {{PERSPECTIVE}}
+Fifth, decentralization unavoidably involves adjustments to the power relationships between protocol participants, especially when it opens up the possibility of centralization elsewhere. As {{AMBITION}} notes, decentralization "appears to operate as a rhetorical strategy that directs attention toward some aspects of a proposed social order and away from others", so "we cannot accept technology as a substitute for taking social, cultural, and political considerations seriously". Or, more bluntly, "without governance mechanisms in place, nodes may collude, people may lie to each other, markets can be rigged, and there can be significant cost to people entering and exiting markets" {{PERSPECTIVE}}.
 
 For example, while blockchain-based cryptocurrencies purport to address the centralization inherent in existing currencies through technical means, many exhibit considerable concentration of power due to voting/mining power, distribution of funds, and diversity of the codebase. {{BITCOIN}} Overreliance on technical measures also brings an opportunity for latent, informal power structures that have their own risks -- including centralization. {{STRUCTURELESS}}
 
-Overall, decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. If one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape." {{PERSPECTIVE}}
+Overall, decentralizing a function requires considerable work, is inherently political, and involves a large degree of uncertainty about the outcome. If one considers decentralization as a larger social goal (in the spirit of how the term is used in other, non-computing contexts), merely rearranging technical functions may lead to frustration. "A distributed network does not automatically yield an egalitarian, equitable or just social, economic, political landscape" {{PERSPECTIVE}}.
 
 
 ## Decentralization Strategies {#techniques}
@@ -473,7 +473,7 @@ While these measures can be effective in decentralizing a function's operation, 
 
 Furthermore, a protocol or an application composed of many functions can use distributed consensus for some but still be centralized elsewhere -- either because those other functions cannot be decentralized (most commonly, rendezvous and global naming; see {{necessary}}) or because the designer has chosen not to because of the associated costs and lost opportunities.
 
-These potential shortcomings do not rule out the use of distributed consensus technologies in every instance, but they do merit caution against uncritically relying upon these technologies to avoid or mitigate centralization. Too often, the use of distributed consensus is perceived as imbuing all parts of a project with "decentralization."
+These potential shortcomings do not rule out the use of distributed consensus technologies in every instance, but they do merit caution against uncritically relying upon these technologies to avoid or mitigate centralization. Too often, the use of distributed consensus is perceived as imbuing all parts of a project with "decentralization".
 
 
 ### Operational Governance {#multi}
@@ -548,7 +548,7 @@ That opportunity also presents a risk, if the resulting legal regulation is at o
 
 ## Enable Switching {#switch}
 
-The ability to switch between different function providers is a core mechanism to control centralization. If users are unable to switch, they cannot exercise choice or fully realize the value of their efforts because, for example, "learning to use a vendor's product takes time, and the skill may not be fully transferable to a competitor's product if there is inadequate standardization." {{SWITCHING}}
+The ability to switch between different function providers is a core mechanism to control centralization. If users are unable to switch, they cannot exercise choice or fully realize the value of their efforts because, for example, "learning to use a vendor's product takes time, and the skill may not be fully transferable to a competitor's product if there is inadequate standardization" {{SWITCHING}}.
 
 Therefore, standards should have an explicit goal of facilitating users switching between implementations and deployments of the functions they define or enable.
 
